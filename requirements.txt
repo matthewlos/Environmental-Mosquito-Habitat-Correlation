@@ -1,7 +1,9 @@
-streamlit
-geopandas
-pydeck
-folium
-streamlit-folium
-plotly
-matplotlib
+streamlit==1.31.1
+geopandas==0.14.3
+pydeck==0.8.1b0
+folium==0.15.1
+streamlit-folium==0.20.0
+plotly==5.18.0
+matplotlib==3.8.2
+dotenv==1.0.1
+openai==2.16.0
