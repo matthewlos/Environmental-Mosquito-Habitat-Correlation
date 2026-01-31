@@ -5,3 +5,7 @@ folium
 streamlit-folium
 plotly
 matplotlib
+earthengine-api
+fastapi
+uvicorn[standard]
+pydantic

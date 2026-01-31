@@ -1,1 +1,7 @@
 /geo
+venv/
+__pycache__/
+.idea/
+*.gpkg
+*.pyc
+.env
