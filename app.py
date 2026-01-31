@@ -143,7 +143,7 @@ with tab3:
             st.write("\n**Top Species:**")
             for species, count in gdf['Species'].value_counts().head(5).items():
                 st.write(f"- {species}: {count:,} observations")
-        
+
         with col2:
             st.write("**Water Source Types:**")
             for source, count in gdf['WaterSourceType'].value_counts().head(5).items():
