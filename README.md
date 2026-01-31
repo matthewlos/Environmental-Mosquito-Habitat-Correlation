@@ -14,8 +14,10 @@ Explaining how environmental factors correlate with mosquito habitats.
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
+
+Create google cloud account, and add google Earth Engine API to the New Project
 earthengine authenticate
-earthengine set_project crested-medium-486020-q3
+earthengine set_project PROJECT_ID
 ```
 
 2. Configure your `.env` file with OpenAI API credentials:
